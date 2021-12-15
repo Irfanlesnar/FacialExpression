@@ -1,360 +1,327 @@
+strong {
+  color: black;
+  font-weight: 600;
+}
+.cover {
+  margin-top: -10px;
 
-strong{
-    color: black;
-    font-weight: 600;
+  width: 100%;
+  position: absolute;
 }
-.cover{
-    margin-top: -10px;
-    
-    width: 100%;
-    position: absolute;
-}
-.covercontent{
-    position: relative;
-    margin-top: 10px;
-    z-index: 3;
-    width: 100%;
-    
+.covercontent {
+  position: relative;
+  margin-top: 10px;
+  z-index: 3;
+  width: 100%;
 }
 
-
-.heading{
-    color: white;
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 800;
-    text-align: center;
-    margin: auto;
-    width: 100%;
-    height: 500px;
-    padding-top: 50px;
-    
-}
-.topbar{
-    display: none;
-    margin-top: -1px;
-    width: 100%;
-    z-index: 7;
-    position: fixed;
-    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
-}
-.sidebox{
-    position: relative;
-    padding: 0px 70px 0px 0px;
-    margin-top: -30%;
-    filter: drop-shadow(-3px -3px 12px rgba(0,0,0,0.5));
-    width: 30%;
-    float: right;
-    background-color:transparent ;
-}
-.buybtn{
-    z-index: 6;
-    border-radius: 15px;
-    width: 350px;
-    font-size: 20px;
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 800;
-    position: relative;
-    filter: drop-shadow(0px 0px 15px rgba(14, 190, 235, 0.37));
-}
-.buy{
-    z-index: 5;
-    padding: 0px 0px 0px 13%;
-    margin-bottom: 20%;
-    margin-top: -25%;
-
-
-}
-.bgshad{
-    padding-top: 100px;
-    height: 100;
-    
-    
-    margin-top: -30px;
-    margin-left: 15%;
-    margin-right: 15%;
-    padding-bottom: 100px;
-    width: 70%;
-        
-    background-color: rgb(255, 255, 255);
-    
-    
-box-shadow: rgba(0, 0, 0, 0.19) 0px 0px 39px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
-
-    
-    
-}
-p{
-    font-family: 'Open Sans', sans-serif;
-    color: grey;
-}
-.para{
-    font-family: 'Open Sans', sans-serif;
-    color: grey;
-    padding: 120px 10px 0px 10px;
-    
+.gumfol {
+  width: 60%;
+  margin: auto;
 }
 
-.btntry{
-    margin: 0px 10px 0px 0px;
-    background-color: #25a4ad;
-    color: white;
+.heading {
+  color: white;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 800;
+  text-align: center;
+  margin: auto;
+  width: 100%;
+  height: 500px;
+  padding-top: 50px;
+}
+.topbar {
+  display: none;
+  margin-top: -1px;
+  width: 100%;
+  z-index: 7;
+  position: fixed;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.sidebox {
+  position: relative;
+  padding: 0px 70px 0px 0px;
+  margin-top: -30%;
+  filter: drop-shadow(-3px -3px 12px rgba(0, 0, 0, 0.5));
+  width: 30%;
+  float: right;
+  background-color: transparent;
+}
+.buybtn {
+  z-index: 6;
+  border-radius: 15px;
+  width: 350px;
+  font-size: 20px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 800;
+  position: relative;
+  filter: drop-shadow(0px 0px 15px rgba(14, 190, 235, 0.37));
+}
+.buy {
+  z-index: 5;
+  padding: 0px 0px 0px 13%;
+  margin-bottom: 20%;
+  margin-top: -25%;
+}
+.bgshad {
+  padding-top: 100px;
+  height: 100;
+
+  margin-top: -30px;
+  margin-left: 15%;
+  margin-right: 15%;
+  padding-bottom: 100px;
+  width: 70%;
+
+  background-color: rgb(255, 255, 255);
+
+  box-shadow: rgba(0, 153, 255, 0.19) 0px 0px 109px,
+    rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+p {
+  font-family: "Open Sans", sans-serif;
+  color: grey;
+}
+.para {
+  font-family: "Open Sans", sans-serif;
+  color: grey;
+  padding: 120px 10px 0px 10px;
 }
 
-h4{
-    color: black;
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 700;
-    margin-bottom: 20px;
-}
-.warn{
-    color: rgb(202, 37, 37);
-    font-size: 15px;
-    font-family: 'Open Sans', sans-serif;
-}
-.image1{
-    
-    width: 100%;
+.btntry {
+  margin: 0px 10px 0px 0px;
+  background-color: #25a4ad;
+  color: white;
 }
 
-.imagespark{
-    border-radius: 15px;
-    margin-bottom: 20px;
-    width: 100%;
+h4 {
+  color: black;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+.warn {
+  color: rgb(202, 37, 37);
+  font-size: 15px;
+  font-family: "Open Sans", sans-serif;
+}
+.image1 {
+  width: 100%;
 }
 
-.image3{
-    width: 70%;
-    padding-top: 40px;
-    margin: auto;
-    
+.imagespark {
+  border-radius: 15px;
+  margin-bottom: 20px;
+  width: 100%;
 }
 
-.left{
-    width: 40%;
-}
-.right{
-    width: 60%;
-}
-.handlegif{
-
-    margin-top: 100px;
-}
-.gifs1{
-    filter: drop-shadow(1px 1px 10px rgba(0,0,0,0.2));
-    border-radius: 10px;
-    width: 200px;
-    transition: transform .2s;
-}
-.gifs1:hover{
-
-    transform: scale(1.5);
+.image3 {
+  width: 70%;
+  padding-top: 40px;
+  margin: auto;
 }
 
-.footer{
-    height: 350px;
-    width: 100%;
-    z-index: 6;
-    background-color: #252525;
-    
-
+.left {
+  width: 40%;
 }
-.soicon{
-    width: 30px;
-    border-radius: 10px;
-    margin: 0px 5px 0px 5px;
-    color: transparent !important;
-    text-decoration: none !important;
+.right {
+  width: 60%;
 }
-
-.icons{
-    text-align: center;
-    margin: auto;
-    padding-top: 60px;
+.handlegif {
+  margin-top: 100px;
+}
+.gifs1 {
+  filter: drop-shadow(1px 1px 10px rgba(0, 0, 0, 0.2));
+  border-radius: 10px;
+  width: 200px;
+  transition: transform 0.2s;
+}
+.gifs1:hover {
+  transform: scale(1.5);
 }
 
-.mylogo{
-    margin-top: 3px;
-    font-size: 25px;
-    color: white;
-    text-align: center;
-    filter: drop-shadow(0px 0px 15px rgba(216, 11, 188, 0.5));
-    padding-top: 50px;
-    
-    
+.footer {
+  height: 350px;
+  width: 100%;
+  z-index: 6;
+  background-color: #252525;
 }
-.myimg{
-    margin-right: 30px;
-    width: 30px;
-    border-radius: 100%;
-    display: inline-block;
-    margin: 10px;
-    vertical-align: middle;
-    box-shadow: 0px 0px 10px #bd2586;
-    animation: spinShadow 6s linear infinite;   
+.soicon {
+  width: 30px;
+  border-radius: 10px;
+  margin: 0px 5px 0px 5px;
+  color: transparent !important;
+  text-decoration: none !important;
 }
-.mylogo{
-     margin-left: -15px;
- }
 
- .youtube{
-     
-     width: 100%;
-     height: auto;
- }
-
-.sparkt{
-    text-align: center;
-    margin-top: 50px;
-
+.icons {
+  text-align: center;
+  margin: auto;
+  padding-top: 60px;
 }
-iframe{
-        width: 100%;
-        margin-bottom: 20px;
-    }
 
+.mylogo {
+  margin-top: 3px;
+  font-size: 25px;
+  color: white;
+  text-align: center;
+  filter: drop-shadow(0px 0px 15px rgba(216, 11, 188, 0.5));
+  padding-top: 50px;
+}
+.myimg {
+  margin-right: 30px;
+  width: 30px;
+  border-radius: 100%;
+  display: inline-block;
+  margin: 10px;
+  vertical-align: middle;
+  box-shadow: 0px 0px 10px #bd2586;
+  animation: spinShadow 6s linear infinite;
+}
+.mylogo {
+  margin-left: -15px;
+}
 
+.youtube {
+  width: 100%;
+  height: auto;
+}
 
-
-
-
-
-
-
-
-
-
+.sparkt {
+  text-align: center;
+  margin-top: 50px;
+}
+iframe {
+  width: 100%;
+  margin-bottom: 20px;
+}
 
 @keyframes spinShadow {
-  to { transform: rotate(360deg); }
+  to {
+    transform: rotate(360deg);
+  }
 }
-.preview-container-square{
-
-border-radius:14px;
+.preview-container-square {
+  border-radius: 14px;
 }
-
 
 @media only screen and (max-width: 820px) {
-    iframe{
-        height: 350px;
-        margin-bottom: 20px;
-    }
-  .sidebox{
+  iframe {
+    height: 350px;
+    margin-bottom: 20px;
+  }
+  .sidebox {
     position: relative;
     padding: 0px 20px 0px 0px;
     margin-top: -39%;
-    filter: drop-shadow(-3px -3px 12px rgba(0,0,0,0.5));
+    filter: drop-shadow(-3px -3px 12px rgba(0, 0, 0, 0.5));
     width: 35%;
     float: right;
-    background-color:transparent ;
-      
+    background-color: transparent;
   }
-  .buy{
+  .buy {
     z-index: 5;
     padding: 0px 0px 0px 50px;
     margin-bottom: 20%;
     margin-top: -25%;
-
-
-}
-.bgshad{
+  }
+  .bgshad {
     padding-top: 0px;
     height: 100;
-    
-    
+
     margin-top: -40px;
     margin-left: 5%;
     margin-right: 5%;
     padding-bottom: 100px;
     width: 90%;
-        
+
     background-color: rgb(255, 255, 255);
-    
-    
-box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
 
-    
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px,
+      rgba(0, 0, 0, 0.23) 0px 6px 6px;
+  }
 }
-}
-
+/* for mobiles  */
 @media only screen and (max-width: 600px) {
-    .topbar{
-        display: none;
-    }
-    iframe{
-        height: 250px;
-        margin-bottom: 20px;
-    }
-  .bgshad{
-    padding-top:0px;
-    height: 100;  
+  .gumfol {
+      width: 100%;
+      
+  }
+  .topbar {
+    display: none;
+  }
+  iframe {
+    height: 250px;
+    margin-bottom: 20px;
+  }
+  .bgshad {
+    padding-top: 0px;
+    height: 100;
     margin-top: 0px;
     margin-left: 0px;
-    margin-right:0px;
+    margin-right: 0px;
     padding-bottom: 100px;
     width: 100%;
     background-color: rgb(255, 255, 255);
-    box-shadow:none;
-
+    box-shadow: none;
   }
-  .sidebox{
+  .sidebox {
     position: relative;
     padding: 0px 20px 0px 0px;
     margin-top: -49%;
-    filter: drop-shadow(-3px -3px 12px rgba(0,0,0,0.5));
+    filter: drop-shadow(-3px -3px 12px rgba(0, 0, 0, 0.5));
     width: 35%;
     float: right;
-    background-color:transparent ;
-
+    background-color: transparent;
   }
   .buybtn {
-      filter: drop-shadow(0px 0px 0px rgba(0,0,0,0));
-      font-size: 14px;
-      width: 250px;
-      border-radius: 9px;
+    filter: drop-shadow(0px 0px 0px rgba(0, 0, 0, 0));
+    font-size: 14px;
+    width: 250px;
+    border-radius: 9px;
   }
-  .buy{
+  .buy {
     z-index: 5;
     text-align: center;
     padding: 5px;
     margin-bottom: 10%;
     margin-top: 0px;
-
   }
-  .para{
-      padding-top: 10px;
+  .para {
+    padding-top: 10px;
   }
- p{
-     font-size: 18px;
- }
- h4{
-     font-size: 22px;
- }
- .filterbtn{
-     text-align: center;
-     padding: 5px;
- }
- .filbtn{
-        width: 80%;
-        margin: 7px;
- }
- .image3d{
-     
-     text-align: center;
- }
- .left{
-     width: 100%;
-     text-align: center;
- }
- .right{
-     width: 100%;
-     padding-top: 20px;
- }
- .gifs1{
-     width:100%;
-     transition: transform .2s;
- }
- .gifs1:hover{
+  p {
+    font-size: 18px;
+  }
+  h4 {
+    font-size: 22px;
+  }
+  .filterbtn {
+    text-align: center;
+    padding: 5px;
+  }
+  .filbtn {
+    width: 80%;
+    margin: 7px;
+  }
+  .image3d {
+    text-align: center;
+  }
+  .left {
+    width: 100%;
+    text-align: center;
+  }
+  .right {
+    width: 100%;
+    padding-top: 20px;
+  }
+  .gifs1 {
+    width: 100%;
+    transition: transform 0.2s;
+  }
+  .gifs1:hover {
     transform: scale(1);
- }
+  }
 }
-
