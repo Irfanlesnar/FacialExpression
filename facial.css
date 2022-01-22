@@ -9,7 +9,7 @@ section {
 }
 .container {
   width: 90%;
- filter: drop-shadow(0px 0px 14px rgba(0,0,0,0.1));
+  filter: drop-shadow(0px 0px 14px rgba(0, 0, 0, 0.1));
   margin: 0 auto;
   padding: 20px;
   box-shadow: 0px 0px 20px #00000010;
@@ -36,7 +36,7 @@ section {
 textarea {
   resize: vertical;
 }
-button[type="submit"] {
+button[type="submit-free"] {
   font-family: "Open Sans", sans-serif;
   width: 100%;
   border: none;
@@ -50,12 +50,12 @@ button[type="submit"] {
   margin-top: 10px;
   transition: 0.3s ease background-color;
 }
-button[type="submit"]:hover {
+button[type="submit-free"]:hover {
   background-color: rgb(48, 48, 48);
 }
 #status {
   width: 90%;
- 
+
   text-align: center;
   padding: 10px;
   margin: 0 auto;
@@ -85,17 +85,12 @@ button[type="submit"]:hover {
   }
 }
 
-
-
-
-
-
 strong {
   color: black;
   font-weight: 600;
 }
 
-body{
+body {
   background-color: #ffffff;
 }
 .cover {
@@ -171,10 +166,7 @@ body{
   padding-bottom: 100px;
   width: 70%;
 
-    background-color: #ffffff;
-    
-
-  
+  background-color: #ffffff;
 }
 p {
   font-family: "Open Sans", sans-serif;
@@ -251,7 +243,7 @@ h4 {
   color: transparent !important;
   text-decoration: none !important;
 }
-.soicon-insta{
+.soicon-insta {
   width: 40px;
   border-radius: 10px;
   margin: 0px 5px 0px 0px;
@@ -340,15 +332,12 @@ iframe {
     width: 90%;
 
     background-color: #ffffff;
-
-    
   }
 }
 /* for mobiles  */
 @media only screen and (max-width: 600px) {
   .gumfol {
-      width: 100%;
-      
+    width: 100%;
   }
   .topbar {
     display: none;
