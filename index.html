@@ -28,23 +28,7 @@
       </script>
    </head>
    <body>
-      <!-- <div >
-         <a href="https://www.instagram.com/irfan_lesnar_/" target="_blank" ><img class="topbar" src="images/topbar.svg" ></a>
-      </div> -->
-
-
-      <!-- old banner -->
-
-      <!-- <div class="coverimage">
-         <img class="cover" src="images/cover.png" >
-      </div> -->
-      <!-- <div class="coverimagecontent">
-         <img class="covercontent" src="images/covercontent.svg" >
-         <img class="sidebox"  src="images/sidebox.svg" >
-      </div> -->
-
-
-      <!-- new banner -->
+      
       <div >
          <img class="myImageBanner selector" src="images/banner_irfan.png"/>
          <img class="banner_new selector" src="images/banner_bg.svg"/>
@@ -52,16 +36,27 @@
          
 
       </div>
-      <div class="buy_new  sticky" >
+      <div class="buy_new" >
 
          <a class="btn btn-primary btn-lg buybtn btntry" href="https://irfanlesnar.gumroad.com/l/facialexpression" target="_blank" role="button">Download</a>
 
       </div>
+   <div class="row" >
+      <div style="text-align: left;"class="side_bar_section sticky">
+         <p style= "background-color: #d4d4d4;color: #030303;"class="sections">Quick scroll</p>
+         <a class="sections" href="#how_to_use" >How to use</a>
+         <a class="sections" href="#Short_hair_physics">Short hair physics</a>
+         <a class="sections" href="#Work_on_Spark_AR">Work on Spark AR</a>
+         <a class="sections" href="#Create_Shapekeys">Create Shapekeys</a>
+         <a class="sections" href="#Importing_into_Spark_AR">Importing into Spark AR</a>
+         <a class="sections" href="#Get_Into_patch_editor">Get Into patch editor</a>
+         <a class="sections" href="#Connecting_with_patch">Connecting with patch</a>
+         <a class="sections" href="#After_connecting_all_patches">After connecting all patches
+         </a>
+         
+      </div>
 
-
-      <!-- <div class="buy">
-         <a class="btn btn-primary btn-lg buybtn btntry" href="https://irfanlesnar.gumroad.com/l/facialexpression" target="_blank" role="button">Download the patch now</a>
-      </div> -->
+    <div class="content_body">
       <div class="container-fluid bgshad">
          <div class="para">
             <h4>Facial Expressions</h4>
@@ -77,10 +72,10 @@
                <a class="btn btn-info btntry filbtn" href="https://www.instagram.com/ar/902115240375849/" target="_blank" role="button">Messi Instagram Filter</a>
                <a class="btn btn-info btntry filbtn" href="https://www.instagram.com/ar/191307646200880/" target="_blank" role="button">Neymar Instagram Filter</a>
             </div>
-            <p class="warn">*open using instagram</p>
+            <p id="how_to_use" class="warn">*open using instagram</p>
             <br>
             <div >
-               <h4>How to use</h4>
+               <h4 >How to use</h4>
                <img class="image1" src="images/image1.png" >
                <p class="warn">*This patch shows error until you connect the face as input</p>
                <img class="image1" src="images/image2.png" >
@@ -385,7 +380,7 @@
                   </div>
                </div>
             </div>
-            <div class="handlegif">
+            <div class="handlegif" id="Short_hair_physics">
                <div class="row">
                   <div class="col-lg-6 left youtube">
                      <iframe width="100%" height="624" style="border-radius:15px; "src="https://www.youtube.com/embed/6eJutnaSbrU" title="YouTube video player" frameborder="0" allow="accelerometer; ; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -401,30 +396,30 @@
                   </div>
                </div>
             </div>
-            <div class="sparkt" style="margin-bottom:40px;">
+            <div id="Work_on_Spark_AR"class="sparkt" style="margin-bottom:40px;">
                <h4 style="font-size:30px;"class="sparkhead"> Work on Spark AR </h4>
             </div>
-            <div >
+            <div id="Create_Shapekeys">
                <h4 style="margin-top:40px">Create Shapekeys</h4>
                <img class="imagespark" src="images/insideblender.png" >
                <p>Create shapekeys or blendshapes using your favourite software. and export the model as <strong>(.gltf) or (.fbx)<br><br></strong> <strong style="color:red">Should not</strong> export it as <strong>.obj</strong> because it does <strong style="color:red">not contains</strong> the shapekeys or bones or any animation in the exported file. </p>
             </div>
-            <div >
+            <div id="Importing_into_Spark_AR">
                <h4 style="margin-top:70px">Importing into Spark AR</h4>
                <img class="imagespark" src="images/loadshape.jpg" >
                <p>Import the file inside the <strong><a style="text-decoration:none;" href="https://sparkar.facebook.com/ar-studio/download/">spark AR studio</strong></a>. and select the object which contains shapekeys. In my case the object is face. so when I select the face. On the right side panel all the shapekeys will be shown. If you cant see any shapekeys on right side panel the you should export in any other format. Mostly <strong>(.gltf)</strong> will work. If it doesnt work you can try <strong>(.fbx)</strong>. If you are using <strong>Blender</strong> then I recommend to export it as <strong>(.gltf or .glb).</strong></p>
             </div>
-            <div >
+            <div id="Get_Into_patch_editor" >
                <h4 style="margin-top:70px">Get Into patch editor</h4>
                <img class="imagespark" src="images/yellowclick.png" >
                <p>Once you found the shapekeys. click on the yellow arrow button near the shapekeys panel. Now the value of the shapekeys can be changed in real-time.</p>
             </div>
-            <div >
+            <div id="Connecting_with_patch">
                <h4 style="margin-top:70px">Connecting with patch</h4>
                <img class="imagespark" src="images/boxcame.jpg" >
                <p>After clicking the little arrow. you can see a yellow box inside the patch editor. just connect the patch to the yellow box. Similarly connect your shapekeys to the respective patch.</p>
             </div>
-            <div >
+            <div id="After_connecting_all_patches">
                <h4 style="margin-top:70px">After connecting all patches</h4>
                <img class="imagespark" src="images/finalpatch.jpg" >
                <p>After connecting all patches with their respective shapekeys It looks like this.</p>
@@ -536,6 +531,12 @@
             
         </div>
       </div>
+
+    </div>  
+
+</div>
+  
+      
 
       <div class="footer">
          <div class="mylogo">

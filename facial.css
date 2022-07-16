@@ -19,9 +19,12 @@
 div.sticky{
   position: -webkit-sticky;
   position: sticky;
+  
   top: 0;
   text-align: center;
 }
+
+
 
 /* my image in banner */
 .myImageBanner{
@@ -209,19 +212,58 @@ body {
   margin-bottom: 20%;
   margin-top: -25%;
 }
-.bgshad {
+.sections{
   
-  padding-top: 100px;
-  height: 100;
+  display: flex;
+  text-decoration: none;
+  color: #252525;
+  padding-top: 10px;
+  width: 100%;
+  margin: auto;
+  padding-bottom: 10px;
+  background-color: white;
+  border-radius: 7px;
+  padding-left: 20px;
 
-  margin-top: 0px;
-  margin-left: 15%;
-  margin-right: 15%;
-  padding-bottom: 100px;
+}
+html{
+  scroll-behavior: smooth;
+}
+.sections:hover{
+  background-color: #2b2d39;
+  color: white;
+}
+
+.side_bar_section{
+  padding-top: 10px;
+  margin-left: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 26%;
+  
+  background-color: white;
+  height: fit-content;
+  align-items: center;
+  border-radius: 10px;
+  
+  
+}
+.content_body{
   width: 70%;
+  margin-top: 20px!important;
+}
 
+.bgshad {
+  height: 100;
+  
+  border-radius: 10px;
+  padding-bottom: 100px;
+  width: 100%;
   background-color: #ffffff;
 }
+
+
+
 p {
   font-family: "Open Sans", sans-serif;
   color: grey;
@@ -229,7 +271,8 @@ p {
 .para {
   font-family: "Open Sans", sans-serif;
   color: grey;
-  padding: 120px 10px 0px 10px;
+
+  padding: 20px 10px 0px 10px;
 }
 
 .btntry {
@@ -382,12 +425,7 @@ iframe {
     margin-top: -25%;
   }
   .bgshad {
-    padding-top: 0px;
-    height: 100;
-
-    margin-top: -40px;
-    margin-left: 5%;
-    margin-right: 5%;
+    
     padding-bottom: 100px;
     width: 90%;
 
@@ -396,7 +434,9 @@ iframe {
 }
 /* for mobiles  */
 @media only screen and (max-width: 600px) {
-
+  .side_bar_section{
+    display: none;
+  }
   .myImageBanner{
     display: none;
   }
