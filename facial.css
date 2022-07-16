@@ -1,3 +1,46 @@
+
+
+
+.banner_new_mobile{
+  display: none;
+}
+
+.buy_new{
+  z-index: 10;
+  backdrop-filter: blur(7px);
+  box-shadow: 0 0 1rem 0 rgba(0, 0, 0, .2); 
+  position: sticky;
+  width: 100%;
+  padding: 5px;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.39);
+}
+
+/* my image in banner */
+.myImageBanner{
+  position: absolute;
+  float: right;
+  top: 0px;
+  right: 0px;
+  text-align: right;
+  width: 38%;
+  
+}
+
+
+
+/* stickey header */
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.sticky + .content {
+  padding-top: 102px;
+}
+
 section {
   height: 100vh;
   width: 100%;
@@ -89,9 +132,16 @@ strong {
   color: black;
   font-weight: 600;
 }
-
+.selector {
+  user-drag: none;
+  -webkit-user-drag: none;
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+}
 body {
-  background-color: #ffffff;
+  background-color: #f8f9fa;
 }
 .cover {
   margin-top: -10px;
@@ -141,15 +191,24 @@ body {
   background-color: transparent;
 }
 .buybtn {
+  
   z-index: 6;
-  border-radius: 15px;
-  width: 350px;
+  width: 50%;
+  border-radius: 0px;
+  padding: 7px 40px 7px 40px;
   font-size: 20px;
+  text-align: center!important;
+  
   font-family: "Open Sans", sans-serif;
   font-weight: 800;
-  position: relative;
-  filter: drop-shadow(0px 0px 15px rgba(14, 190, 235, 0.37));
+  background-color:  #2b2d39!important;
+  
 }
+.buybtn:hover{
+  background-color:  #2b4691!important;
+  filter: drop-shadow(0px 0px 105px rgba(255, 255, 255, 1));
+}
+
 .buy {
   z-index: 5;
   padding: 0px 0px 0px 13%;
@@ -157,10 +216,11 @@ body {
   margin-top: -25%;
 }
 .bgshad {
+  
   padding-top: 100px;
   height: 100;
 
-  margin-top: -30px;
+  margin-top: 0px;
   margin-left: 15%;
   margin-right: 15%;
   padding-bottom: 100px;
@@ -180,8 +240,14 @@ p {
 
 .btntry {
   margin: 0px 10px 0px 0px;
-  background-color: #25a4ad;
+  background-color:  #2b2d39!important;
+    color: white;
+    border-radius: 0px;
+}
+.btntry:hover{
   color: white;
+  background-color:  #2b4691!important;
+  
 }
 
 h4 {
@@ -336,6 +402,21 @@ iframe {
 }
 /* for mobiles  */
 @media only screen and (max-width: 600px) {
+
+  .myImageBanner{
+    display: none;
+  }
+  
+  .banner_new{
+    display: none;
+    
+    
+  }
+  .banner_new_mobile{
+    display: block;
+  }
+ 
+
   .gumfol {
     width: 100%;
   }
@@ -366,11 +447,15 @@ iframe {
     float: right;
     background-color: transparent;
   }
+
+
+
   .buybtn {
-    filter: drop-shadow(0px 0px 0px rgba(0, 0, 0, 0));
     font-size: 14px;
-    width: 250px;
-    border-radius: 9px;
+    width: 100%;
+    border-radius: 0px;
+    text-align: center;
+    margin: auto;
   }
   .buy {
     z-index: 5;
