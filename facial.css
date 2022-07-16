@@ -434,6 +434,15 @@ iframe {
 }
 /* for mobiles  */
 @media only screen and (max-width: 600px) {
+
+  .content_body{
+    margin-left: 10px;
+    margin-right: 10px;
+    width: fit-content;
+    margin-top: 20px!important;
+  }
+
+
   .side_bar_section{
     display: none;
   }
