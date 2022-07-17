@@ -1,6 +1,9 @@
 
 
-
+.youtube_videos{
+  width: 50%;
+  padding: 10px;
+}
 .banner_new_mobile{
   display: none;
 }
@@ -138,7 +141,9 @@ strong {
   -ms-user-select: none;
 }
 body {
-  background-color: #f8f9fa;
+  max-width: 100%;
+  overflow-x: hidden;
+  background-color: #f6f8fc;
 }
 .cover {
   margin-top: -10px;
@@ -393,6 +398,7 @@ h4 {
 iframe {
   width: 100%;
   margin-bottom: 20px;
+  border-radius: 10px;
 }
 
 @keyframes spinShadow {
@@ -424,6 +430,8 @@ iframe {
     margin-bottom: 20%;
     margin-top: -25%;
   }
+  
+
   .bgshad {
     
     padding-bottom: 100px;
@@ -434,7 +442,9 @@ iframe {
 }
 /* for mobiles  */
 @media only screen and (max-width: 600px) {
-
+.youtube_videos{
+  width: 100%;
+}
   .content_body{
     margin-left: 10px;
     margin-right: 10px;
