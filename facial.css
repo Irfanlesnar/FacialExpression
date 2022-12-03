@@ -28,15 +28,14 @@ div.sticky{
 }
 
 
-
 /* my image in banner */
 .myImageBanner{
   position: absolute;
   float: right;
-  top: 0px;
+  top: 10px;
   right: 0px;
   text-align: right;
-  width: 38%;
+  width: 40%;
   
 }
 
