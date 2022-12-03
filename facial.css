@@ -42,10 +42,9 @@ div.sticky{
 
 
 section {
-  height: 100vh;
   width: 100%;
   background-color: rgb(255, 255, 255);
-  display: flex;
+  
   align-items: center;
   justify-content: center;
   flex-direction: column;
@@ -229,6 +228,7 @@ body {
   background-color: white;
   border-radius: 7px;
   padding-left: 20px;
+  padding-right: 20px;
 
 }
 html{
@@ -306,6 +306,7 @@ h4 {
 .image1 {
   width: 100%;
 }
+
 
 .imagespark {
   border-radius: 15px;
@@ -441,6 +442,25 @@ iframe {
   }
 }
 /* for mobiles  */
+@media only screen and (max-width: 950px) {
+.right{
+  width: 100%;
+  margin-top: 30px;
+}
+
+.youtube_videos{
+  width: 100%;
+  margin-top: 50px;
+}
+.gumfol{
+  width: 100%;
+}
+
+}
+
+
+
+
 @media only screen and (max-width: 600px) {
 .youtube_videos{
   width: 100%;
