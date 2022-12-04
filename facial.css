@@ -7,7 +7,9 @@
 .banner_new_mobile{
   display: none;
 }
-
+.gifWarn{
+  display: none;
+}
 .buy_new{
   z-index: 10;
   backdrop-filter: blur(7px);
@@ -444,7 +446,7 @@ iframe {
 @media only screen and (max-width: 950px) {
 .right{
   width: 100%;
-  margin-top: 30px;
+  margin-top: 10px;
 }
 
 .youtube_videos{
@@ -463,6 +465,10 @@ iframe {
 @media only screen and (max-width: 600px) {
 .youtube_videos{
   width: 100%;
+}
+.buy_new{
+  background-color: white;
+  backdrop-filter: none;
 }
   .content_body{
     margin-left: 10px;
@@ -483,6 +489,9 @@ iframe {
     display: none;
     
     
+  }
+  .gifWarn{
+    display: block;
   }
   .banner_new_mobile{
     display: block;
