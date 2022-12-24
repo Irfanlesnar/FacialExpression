@@ -1,4 +1,64 @@
 
+#Create_Shapekeys{
+  background-color: #EEEEEE;
+  padding: 10px;
+  margin: -10px;
+
+  border-radius: 10px;
+}
+
+
+#Get_Into_patch_editor{
+  background-color: #EEEEEE;
+  padding: 10px;
+  margin-left: -10px;
+  margin-right: -10px;
+  margin-top: 70px;
+
+  border-radius: 10px;
+}
+
+
+#Connecting_with_patch{
+  background-color: #EEEEEE;
+  padding: 10px;
+  margin-left: -10px;
+  margin-right: -10px;
+  margin-top: 70px;
+
+  border-radius: 10px;
+}
+
+#After_connecting_all_patches{
+  margin-bottom: 70px;
+  background-color: #EEEEEE;
+  padding: 10px;
+  margin-left: -10px;
+  margin-right: -10px;
+  margin-top: 70px;
+
+  border-radius: 10px;
+}
+
+#Importing_into_Spark_AR{
+  margin: -10px;
+  
+  margin-top: 70px;
+  background-color: #EEEEEE;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.points{
+  background-color: #EEEEEE;
+  padding: 10px;
+  border-radius: 10px;
+}
+.heading_h4{
+  padding: 10px;
+  background-color: #DDDDDD;
+  border-radius: 10px;
+}
 
 .youtube_videos{
   width: 50%;
@@ -52,11 +112,9 @@ section {
 }
 .container {
   width: 90%;
-  filter: drop-shadow(0px 0px 14px rgba(0, 0, 0, 0.1));
   margin: 0 auto;
   padding: 20px;
-  box-shadow: 0px 0px 20px #00000010;
-  background-color: white;
+  background-color: rgb(244, 244, 244);
   border-radius: 8px;
   margin-bottom: 20px;
 }
@@ -70,7 +128,9 @@ section {
 .form-group textarea {
   font-family: "Open Sans", sans-serif;
   width: 100%;
-  padding: 5px;
+  padding: 10px;
+  background-color: #EEEEEE;
+  border-radius: 10px;
   font-size: 18px;
   border: 1px solid rgba(128, 128, 128, 0.199);
   margin-top: 5px;
@@ -87,7 +147,8 @@ button[type="submit-free"] {
   padding: 20px;
   font-size: 24px;
   border-radius: 8px;
-  color: rgb(27, 166, 247);
+  background-color: #7FE9DE;
+  color: rgb(0, 0, 0);
   text-align: center;
   cursor: pointer;
   margin-top: 10px;
@@ -95,6 +156,7 @@ button[type="submit-free"] {
 }
 button[type="submit-free"]:hover {
   background-color: rgb(48, 48, 48);
+  color: white;
 }
 #status {
   width: 90%;
@@ -236,8 +298,9 @@ html{
   scroll-behavior: smooth;
 }
 .sections:hover{
-  background-color: #2b2d39;
-  color: white;
+  background-color: #FFEBAD;
+  color: black;
+  
 }
 
 .side_bar_section{
@@ -316,9 +379,11 @@ h4 {
 }
 
 .image3 {
-  width: 70%;
-  padding-top: 40px;
+  width: -webkit-fill-available;
+  padding-top: 50px;
   margin: auto;
+  
+  padding-bottom: 50px;
 }
 
 .left {
@@ -326,6 +391,9 @@ h4 {
 }
 .right {
   width: 60%;
+  background-color: #EEEEEE;
+  padding-top: 10px;
+  border-radius: 10px;
 }
 .handlegif {
   margin-top: 100px;
@@ -390,6 +458,9 @@ h4 {
 
 .youtube {
   width: 100%;
+  border-radius: 10px;
+  background-color: #EEEEEE;
+  padding: 10px;
   height: auto;
 }
 
@@ -437,7 +508,6 @@ iframe {
   .bgshad {
     
     padding-bottom: 100px;
-    width: 90%;
 
     background-color: #ffffff;
   }
@@ -471,8 +541,7 @@ iframe {
   backdrop-filter: none;
 }
   .content_body{
-    margin-left: 10px;
-    margin-right: 10px;
+  
     width: fit-content;
     margin-top: 20px!important;
   }
