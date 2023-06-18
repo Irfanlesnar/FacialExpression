@@ -1,4 +1,8 @@
+
+@import url("https://fonts.googleapis.com/css2?family=Baloo+2&display=swap");
+
 body {
+  font-family: "Baloo 2", cursive;
   background-color: #262626 !important;
   margin: auto;
 }
@@ -25,7 +29,7 @@ body {
 }
 
 .heading {
-  font-family: "Merriweather Sans", sans-serif;
+  font-family: "Baloo 2", cursive;
   font-size: 28px;
   font-weight: bold;
   color: #ffffff;
@@ -36,7 +40,7 @@ body {
 .sub_heading {
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
-  font-family: "Merriweather Sans", sans-serif;
+  font-family: "Baloo 2", cursive;
   font-size: 24px;
   padding: 10px;
   margin-bottom: 0px;
@@ -120,7 +124,9 @@ input[type="range"]::-webkit-slider-thumb {
   border: 2px solid rgb(224, 192, 10);
   cursor: pointer;
 }
-
+a{
+  text-decoration: none !important;
+}
 .range {
   border-radius: 10px;
   margin: 20px 15px 20px 15px;
@@ -308,7 +314,7 @@ input[type="range"]::-webkit-slider-thumb {
 }
 
 .instaText {
-  font-family: "Merriweather Sans", sans-serif;
+  font-family: "Baloo 2", cursive;
   font-size: 18px;
   color: #ffffff;
   text-align: left;
