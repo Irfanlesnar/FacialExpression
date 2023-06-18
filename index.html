@@ -16,7 +16,7 @@
       <link rel="preconnect" href="https://fonts.googleapis.com"/>
       <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
       <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@800&display=swap" rel="stylesheet"/>
-      <link rel="stylesheet" href="facial.css"/>
+      <link rel="stylesheet" href="home.css"/>
       <!-- Global site tag (gtag.js) - Google Analytics -->
       <script async src="https://www.googletagmanager.com/gtag/js?id=G-KF3XV8PKXH"></script>
       <script>
@@ -30,563 +30,81 @@
    <body>
       
       <div >
-         <img class="myImageBanner selector" id="bannerImage" />
-         <img class="banner_new selector" src="images/banner_bg.svg"/>
-         <img class="banner_new_mobile selector" src="images/banner_bg_mobile.svg"/>
+      
+         <img class="banner_new selector" src="images/banner_bg_home.svg"/>
+         <img class="banner_new_mobile selector" src="images/banner_bg_mobile_home.svg"/>
          
 
       </div>
-      <div class="buy_new" >
 
-         <a class="btn btn-primary btn-lg buybtn btntry" href="https://irfanlesnar.gumroad.com/l/facialexpression" target="_blank" role="button">Download the patch</a>
+
+
+      <div>
+ 
+         
+         <section class="light">
+            <div class="container py-2">
+               <div class="h1 text-center text-dark" id="pageHeaderTitle">My Products</div>
+         
+               <article class="cardFacial postcard light blue">
+                  <a class="postcard__img_link">
+                     <img class="postcard__img" src="https://public-files.gumroad.com/u21sp1bpwg4wknubyosr23uyh975" alt="Image Title" />
+                  </a>
+                  <div class="postcard__text t-dark">
+                     <h1 class="postcard__title blue"><p >Spark AR Facial Expression</p></h1>
+                     <div class="postcard__subtitle small">
+                        <time datetime="2020-05-25 12:00:00">
+                           <i class="fas fa-calendar-alt mr-2"></i>Jul 17, 2021
+                        </time>
+                     </div>
+                     <div class="postcard__bar"></div>
+                     <div class="postcard__preview-txt">This is a patch of facial expression which can be used in Spark AR Studio. This patch contains values of shape keys and hair physics makes the work easier. </div>
+                    
+                  </div>
+               </article>
+
+
+               <article class="cardLutGenerator postcard light blue">
+                  <a class="postcard__img_link" >
+                     <img class="postcard__img" src="images/default.png" alt="Image Title" />
+                  </a>
+                  <div class="postcard__text t-dark">
+                     <h1 class="postcard__title blue"><p >Spark AR LUT Generator</p></h1>
+                     <div class="postcard__subtitle small">
+                        <time datetime="2020-05-25 12:00:00">
+                           <i class="fas fa-calendar-alt mr-2"></i>June 17, 2023
+                        </time>
+                     </div>
+                     <div class="postcard__bar"></div>
+                     <div class="postcard__preview-txt">This is a website where user can generate LUTs for Spark AR Studio. There will be a default image user can adjust its properties and they can able to generate the adjustments as LUTs which later can be used in Spark AR Studio</div>
+                    
+                  </div>
+               </article>
+
+
+               <article class="cardApp postcard light blue">
+                  <a class="postcard__img_link" >
+                     <img class="postcard__img" src="https://play-lh.googleusercontent.com/u45rLf-VrLBioN1pHrhK_L9BuQVxQIYnFN5j11xGEiuD8crIjQzwZcTN_Xv7uYheCIc=w240-h480-rw" alt="Image Title" />
+                  </a>
+                  <div class="postcard__text t-dark">
+                     <h1 class="postcard__title blue"><p >Spark AR Assets android app</p></h1>
+                     <div class="postcard__subtitle small">
+                        <time datetime="2020-05-25 12:00:00">
+                           <i class="fas fa-calendar-alt mr-2"></i>Mar 5, 2023
+                        </time>
+                     </div>
+                     <div class="postcard__bar"></div>
+                     <div class="postcard__preview-txt">This app shows free custom patch assets for Spark AR Studio. You can discover assets and view their descriptions and related YouTube videos which helps you to know how to use the patch. And be able to download the asset in one click. User can also generate LUTs in this app.</div>
+                    
+                  </div>
+               </article>
+           
+
+            </div>
+         </section>
 
       </div>
-   <div class="row" >
-      <div style="text-align: left;"class="side_bar_section sticky">
-         <p style= "background-color: #7FE9DE;color: #030303;margin-bottom: 10px;"class="sections">Quick scroll</p>
-         <a class="sections" href="#how_to_use" >How to use</a>
-         <a class="sections" href="#Short_hair_physics">Short hair physics</a>
-         <a class="sections" href="#Work_on_Spark_AR">Work on Spark AR</a>
-         <a class="sections" href="#Create_Shapekeys">Create Shapekeys</a>
-         <a class="sections" href="#Importing_into_Spark_AR">Importing into Spark AR</a>
-         <a class="sections" href="#Get_Into_patch_editor">Get Into patch editor</a>
-         <a class="sections" href="#Connecting_with_patch">Connecting with patch</a>
-         <a class="sections" href="#After_connecting_all_patches">After connecting all patches
-         </a>
-         
-      </div>
 
-    <div class="content_body">
-      <div class="container-fluid bgshad">
-         
-         <div class="para">
-            <h4 class="heading_h4" >Facial Expressions</h4 class="heading_h4">
-            <p>My name is Irfan I experienced creating expressions
-               using the rigging method is quite hard and it is not possible for a
-               beginners and I was thinking about the spark AR developers who actually created facial tracking points which track users
-               facial expressions. but it can be used only for rigging purpose. But decoding that tracking values we can also use that
-               facial movement values as shapekeys. so I created a formula to decode that facial expression values to shapekey values.
-               and finally,<strong style="color:black"> It works!</strong>
-            </p>
-            <h4 class="heading_h4">Here are some of my filters created using facial expression patch</h4 class="heading_h4">
-            <div class="filterbtn">    
-               <a class="btn btn-info btntry filbtn" href="https://www.instagram.com/ar/902115240375849/" target="_blank" role="button">Messi Instagram Filter</a>
-               <a class="btn btn-info btntry filbtn" href="https://www.instagram.com/ar/191307646200880/" target="_blank" role="button">Neymar Instagram Filter</a>
-            </div>
-            <p id="how_to_use" class="warn">*open using instagram</p>
-            <br>
-            <div >
-               <h4 class="heading_h4" >How to use</h4 class="heading_h4">
-               <img class="image1" src="images/image1.png" >
-               <p class="warn">*This patch shows error until you connect the face as input</p>
-               <img class="image1" src="images/image2.png" >
-               <p class="warn">*Connecting face as Input</p>
-            </div>
-         </div>
-         <div class="container-fluid ">
-            <div class="row">
-               <div class="col-lg-6">
-                  <br><br>
-                  <h4 class="heading_h4">In this patch there are</h4 class="heading_h4">
-                  <p class="points">Left eyebrow raiseness<br>
-                     right eyebrow raiseness<br>
-                     Left eyebrow lowerness<br>
-                     right eyebrow lowerness<br>
-                     forehead mid raiseness<br>
-                     left corner lip smileness<br>
-                     right corner lip smileness<br>
-                     left cornerlip sadness<br>
-                     right corner lip sadness<br>
-                     chin leftness<br>
-                     chin rightness<br>
-                     smileness<br>
-                     sadness<br>
-                     mouth open<br>
-                     left eye closeness<br>
-                     right eye closeness<br>
-                     physics short hair
-                  </p>
-               </div>
-               <div class="col-lg-6 image3d">
-                  <img class="image3" src="images/image3.png" >
-               </div>
-            </div>
-            
-            <div class="handlegif">
-               <div class="gifWarn">
-
-                  <p class="warn">Use the desktop version of this website for a better experience</p>
-               </div>
-               <div class="row">
-                  <div class="col-lg-6 left">
-                     
-                     <video  autoplay="autoplay" loop muted class="gifs1" preload="auto" >
-                        <source src="videos/leftbrowraise.mp4" type="video/mp4">
-                      </video>
-
-
-                     
-                  </div>
-                  <div class="col-lg-6 right">
-                     <h4 class="heading_h4">Left eyebrow raiseness</h4 class="heading_h4">
-                     <p>It tracks the left eyebrow raiseness so create a shapekeys for left eye brow raise</p>
-                  </div>
-               </div>
-            </div>
-            <div class="handlegif">
-               <div class="row">
-                  <div class="col-lg-6 left">
-                     <video  autoplay="autoplay" loop muted class="gifs1" preload="auto" >
-                        <source src="videos/rightbrowraise.mp4" type="video/mp4">
-                      </video>
-
-                  
-                  </div>
-                  <div class="col-lg-6 right">
-                     <h4 class="heading_h4">Right eyebrow raiseness</h4 class="heading_h4">
-                     <p>It tracks the right eyebrow raiseness so create a shapekeys for right eye brow raise</p>
-                  </div>
-               </div>
-            </div>
-            <div class="handlegif">
-               <div class="row">
-                  <div class="col-lg-6 left">
-                     <video  autoplay="autoplay" loop muted class="gifs1" preload="auto" >
-                        <source src="videos/lefteyelower.mp4" type="video/mp4">
-                      </video>
-
-
-                     
-                  </div>
-                  <div class="col-lg-6 right">
-                     <h4 class="heading_h4">Left eyebrow lowerness</h4 class="heading_h4">
-                     <p>It tracks the left eyebrow lowerness so create a shapekeys for left eyebrow lowerness</p>
-                  </div>
-               </div>
-            </div>
-            <div class="handlegif">
-               <div class="row">
-                  <div class="col-lg-6 left">
-                     <video  autoplay="autoplay" loop muted class="gifs1" preload="auto" >
-                        <source src="videos/righteyelower.mp4" type="video/mp4">
-                      </video>
-
-
-                     
-                  </div>
-                  <div class="col-lg-6 right">
-                     <h4 class="heading_h4">Right eyebrow lowerness</h4 class="heading_h4">
-                     <p>It tracks the right eyebrow lowerness so create a shapekeys for right eyebrow lowerness</p>
-                  </div>
-               </div>
-            </div>
-            <div class="handlegif">
-               <div class="row">
-                  <div class="col-lg-6 left">
-                     <video  autoplay="autoplay" loop muted class="gifs1" preload="auto" >
-                        <source src="videos/forehead.mp4" type="video/mp4">
-                      </video>
-
-                     
-                  </div>
-                  <div class="col-lg-6 right">
-                     <h4 class="heading_h4">Forehead mid raiseness</h4 class="heading_h4">
-                     <p>It tracks the forehead is raising or not so create a shapekeys for forehead raise</p>
-                  </div>
-               </div>
-            </div>
-            <div class="handlegif">
-               <div class="row">
-                  <div class="col-lg-6 left">
-                     <video  autoplay="autoplay" loop muted class="gifs1" preload="auto" >
-                        <source src="videos/leftsmile.mp4" type="video/mp4">
-                      </video>
-
-                     
-                  </div>
-                  <div class="col-lg-6 right">
-                     <h4 class="heading_h4">Left corner lip smileness</h4 class="heading_h4">
-                     <p>It tracks the left corner lip while smiling so create a shapekeys for
-                        left cornerlip smileness
-                     </p>
-                  </div>
-               </div>
-            </div>
-            <div class="handlegif">
-               <div class="row">
-                  <div class="col-lg-6 left">
-                     <video  autoplay="autoplay" loop muted class="gifs1" preload="auto" >
-                        <source src="videos/rightsmile.mp4" type="video/mp4">
-                      </video>
-
-                     
-                  </div>
-                  <div class="col-lg-6 right">
-                     <h4 class="heading_h4">Right corner lip smileness</h4 class="heading_h4">
-                     <p>It tracks the right corner lip while smiling so create a shapekeys for
-                        left cornerlip smileness
-                     </p>
-                  </div>
-               </div>
-            </div>
-            <div class="handlegif">
-               <div class="row">
-                  <div class="col-lg-6 left">
-                     <video  autoplay="autoplay" loop muted class="gifs1" preload="auto" >
-                        <source src="videos/leftsad.mp4" type="video/mp4">
-                      </video>
-
-                     
-                  </div>
-                  <div class="col-lg-6 right">
-                     <h4 class="heading_h4">Left corner lip sadness</h4 class="heading_h4">
-                     <p>It tracks the left corner lip while lip goes downwards so create a
-                        shapekeys for left cornerlip sadness
-                     </p>
-                  </div>
-               </div>
-            </div>
-            <div class="handlegif">
-               <div class="row">
-                  <div class="col-lg-6 left">
-
-                     <video  autoplay="autoplay" loop muted class="gifs1" preload="auto" >
-                        <source src="videos/rightsad.mp4" type="video/mp4">
-                      </video>
-
-                     
-                  </div>
-                  <div class="col-lg-6 right">
-                     <h4 class="heading_h4">Right corner lip sadness</h4 class="heading_h4">
-                     <p>It tracks the right corner lip while lip goes downwards so create a
-                        shapekeys for right cornerlip sadness
-                     </p>
-                  </div>
-               </div>
-            </div>
-            <div class="handlegif">
-               <div class="row">
-                  <div class="col-lg-6 left">
-                     
-                     <video  autoplay="autoplay" loop muted class="gifs1" preload="auto" >
-                        <source src="videos/chinleft.mp4" type="video/mp4">
-                      </video>
-
-                     
-                  </div>
-                  <div class="col-lg-6 right">
-                     <h4 class="heading_h4">Chin leftness</h4 class="heading_h4">
-                     <p>It tracks the the chin while moving left so create shapekey for chin left</p>
-                  </div>
-               </div>
-            </div>
-            <div class="handlegif">
-               <div class="row">
-                  <div class="col-lg-6 left">
-
-                     <video  autoplay="autoplay" loop muted class="gifs1" preload="auto" >
-                        <source src="videos/chinright.mp4" type="video/mp4">
-                      </video>
-                     
-                     
-                  </div>
-                  <div class="col-lg-6 right">
-                     <h4 class="heading_h4">Chin rightness</h4 class="heading_h4">
-                     <p>It tracks the the chin while moving right so create shapekey for
-                        chin right
-                     </p>
-                  </div>
-               </div>
-            </div>
-            <div class="handlegif">
-               <div class="row">
-                  <div class="col-lg-6 left">
-
-                     <video  autoplay="autoplay" loop muted class="gifs1" preload="auto" >
-                        <source src="videos/smileness.mp4" type="video/mp4">
-                      </video>
-
-                     
-                  </div>
-                  <div class="col-lg-6 right">
-                     <h4 class="heading_h4">Smileness</h4 class="heading_h4">
-                     <p>It tracks the smileness. It is actually average value of left corner lip
-                        smileness and right corner lip smileness. This smileness is optional
-                        one if you don’t want seperate movements like left smile and right
-                        smile you can use this one.
-                     </p>
-                  </div>
-               </div>
-            </div>
-            <div class="handlegif">
-               <div class="row">
-                  <div class="col-lg-6 left">
-                     
-                     <video  autoplay="autoplay" loop muted class="gifs1" preload="auto" >
-                        <source src="videos/sadness.mp4" type="video/mp4">
-                      </video>
-
-                  </div>
-                  <div class="col-lg-6 right">
-                     <h4 class="heading_h4">Sadness</h4 class="heading_h4">
-                     <p>It tracks the sadness. It is actually average value of left corner lip
-                        sadness and right corner lip sadness. This sadness is optional
-                        one if you don’t want seperate movements like left sad and right
-                        sad you can use this one.
-                     </p>
-                  </div>
-               </div>
-            </div>
-            <div class="handlegif">
-               <div class="row">
-                  <div class="col-lg-6 left">
-
-                     <video  autoplay="autoplay" loop muted class="gifs1" preload="auto" >
-                        <source src="videos/mouthopen.mp4" type="video/mp4">
-                      </video>
-                     
-                  </div>
-                  <div class="col-lg-6 right">
-                     <h4 class="heading_h4">Mouth open</h4 class="heading_h4">
-                     <p class="warn">*This patch is already in spark AR I added this to get all facial movements in one patch</p>
-                     <p>It tracks the mouth openess so create a shapekeys for mouth opensess</p>
-                  </div>
-               </div>
-            </div>
-            <div class="handlegif">
-               <div class="row">
-                  <div class="col-lg-6 left">
-                     <video  autoplay="autoplay" loop muted class="gifs1" preload="auto" >
-                        <source src="videos/lefteyeclose.mp4" type="video/mp4">
-                      </video>
-
-                     
-                  </div>
-                  <div class="col-lg-6 right">
-                     <h4 class="heading_h4">Left eye closeness</h4 class="heading_h4">
-                     <p class="warn">*This patch is already in spark AR I added this to get all facial movements in one patch</p>
-                     <p>It tracks the left eye closeness so create a shapekeys for
-                        left eye closeness
-                     </p>
-                  </div>
-               </div>
-            </div>
-            <div class="handlegif">
-               <div class="row">
-                  <div class="col-lg-6 left">
-                     <video  autoplay="autoplay" loop muted class="gifs1" preload="auto" >
-                        <source src="videos/righteyeclose.mp4" type="video/mp4">
-                      </video>
-
-                     
-                  </div>
-                  <div class="col-lg-6 right">
-                     <h4 class="heading_h4">Right eye closeness</h4 class="heading_h4">
-                     <p class="warn">*This patch is already in spark AR I added this to get all facial movements in one patch </p>
-                     <p>It tracks the right eye closeness so create a shapekeys for right eye closeness</p>
-                  </div>
-               </div>
-            </div>
-            <div class="handlegif" id="Short_hair_physics">
-               <div class="row">
-                  <div class="col-lg-6 left youtube">
-                     <iframe width="100%" height="624" style="border-radius:15px; "src="https://www.youtube.com/embed/6eJutnaSbrU" title="YouTube video player" frameborder="0" allow="accelerometer; ; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                  </div>
-                  <div class="col-lg-6 youtube ">
-                     <h4 class="heading_h4">Short hair physics</h4 class="heading_h4">
-                     <p class="warn">*Watch this YouTube tutorial to get started with short hair physics</p>
-                     <p>It tracks the head rotation and makes the hair cards to move
-                        accordingly. for this you need to learn some basics of bones
-                        this is a extra feature in this patch. If you need only facial expressions
-                        then ignore this.
-                     </p>
-                  </div>
-               </div>
-            </div>
-            <div id="Work_on_Spark_AR"class="sparkt" style="margin-bottom:40px;">
-               <h4 class="heading_h4" style="font-size:30px;"class="sparkhead"> Work on Spark AR </h4 class="heading_h4">
-            </div>
-            <div id="Create_Shapekeys">
-               <h4 class="heading_h4" >Create Shapekeys</h4 class="heading_h4">
-               <img class="imagespark" src="images/insideblender.png" >
-               <p>Create shapekeys or blendshapes using your favourite software. and export the model as <strong>(.gltf) or (.fbx)<br><br></strong> <strong style="color:red">Should not</strong> export it as <strong>.obj</strong> because it does <strong style="color:red">not contains</strong> the shapekeys or bones or any animation in the exported file. </p>
-            </div>
-            <div id="Importing_into_Spark_AR">
-               <h4 class="heading_h4" >Importing into Spark AR</h4 class="heading_h4">
-               <img class="imagespark" src="images/loadshape.jpg" >
-               <p>Import the file inside the <strong><a style="text-decoration:none;" href="https://sparkar.facebook.com/ar-studio/download/">spark AR studio</strong></a>. and select the object which contains shapekeys. In my case the object is face. so when I select the face. On the right side panel all the shapekeys will be shown. If you cant see any shapekeys on right side panel then you should export in any other format. Mostly <strong>(.gltf)</strong> will work. If it doesnt work you can try <strong>(.fbx)</strong>. If you are using <strong>Blender</strong> then I recommend to export it as <strong>(.gltf or .glb).</strong></p>
-            </div>
-            <div id="Get_Into_patch_editor" >
-               <h4 class="heading_h4" >Get Into patch editor</h4 class="heading_h4">
-               <img class="imagespark" src="images/yellowclick.png" >
-               <p>Once you found the shapekeys. click on the yellow arrow button near the shapekeys panel. Now the value of the shapekeys can be changed in real-time.</p>
-            </div>
-            <div id="Connecting_with_patch">
-               <h4 class="heading_h4" >Connecting with patch</h4 class="heading_h4">
-               <img class="imagespark" src="images/boxcame.jpg" >
-               <p>After clicking the little arrow. you can see a yellow box inside the patch editor. just connect the patch to the yellow box. Similarly connect your shapekeys to the respective patch.</p>
-            </div>
-            <div id="After_connecting_all_patches">
-               <h4 class="heading_h4" >After connecting all patches</h4 class="heading_h4">
-               <img class="imagespark" src="images/finalpatch.jpg" >
-               <p>After connecting all patches with their respective shapekeys It looks like this.</p>
-               <br><br><br>
-            </div>
-         </div>
-         
-
-         <div class="row">
-            <div style="width:fit-content;">
-               <h4 class="heading_h4" >Facial Expressions related videos</h4 class="heading_h4">
-            </div>
-            <div style="border-radius: 0px;" >
-             <div style="border-radius:0px" class="g-ytsubscribe" data-channelid="UCoEOIEqsuU7GXQZXavPTAyQ" data-layout="full" data-count="default"></div>
-             </div>
-         </div>
-         <div class="row">
-            <div class="youtube_videos">
-               <iframe width="560" height="315" src="https://www.youtube.com/embed/5ApQEx1BYVs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-               <p>Face deformation tutorial in tamil</p>
-            </div>
-            
-            <div class="youtube_videos">
-               <iframe width="560" height="315" src="https://www.youtube.com/embed/S_NQd3vz86A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-               <p>GTA 4 character 3D model ripped from game and gave expressions and made as a Instagram filter</p>
-            </div>
-            
-            <!-- 3rd video -->
-            <div class="youtube_videos">
-               <iframe width="560" height="315" src="https://www.youtube.com/embed/ecr_FgFFWgw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>            
-               <p>Creating 3D head with single image</p>
-            </div>
-            <div class="youtube_videos">
-               <iframe width="560" height="315" src="https://www.youtube.com/embed/TUtbLI8aPCs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>            
-               <p>Creating hair using hair cards</p>
-            </div>
-            <div class="youtube_videos">
-               <iframe width="560" height="315" src="https://www.youtube.com/embed/cscO0VdaxAQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>            
-               <p>Creating shapekeys in blender</p>
-            </div>  
-
-         </div>
-         <hr>
-         <h4 class="heading_h4" style="margin-top:100px;font-size:30px;text-align:center;color:#292876;"class="sparkhead"> Request this patch for FREE! </h4 class="heading_h4">
-         
-         <div class="warn-form">
-            <p class="warn">*If you are extremely poor, you can request this patch for free! Please make sure you have a good reason for your request. If your message compromises me, I will send you this patch for free by email.  </p>
-
-
-         </div>
-
-         <div class="form-section">
-            <br>
-            <section>
-               <div class="container">
-                 <form action="https://formspree.io/f/mvolzdba" method="POST" id="my-form">
-             
-                   <div class="form-group">
-                     <label for="firstName"> First Name</label>
-                     <input type="text" id="firstName" name="firstName">
-                   </div>
-             
-                   <div class="form-group">
-                     <label for="latsName">Last Name</label>
-                     <input type="text" id="lastName" name="lastName">
-                   </div>
-             
-                   <div class="form-group">
-                     <label for="email">Email</label>
-                     <input type="email" id="email" name="email">
-                   </div>
-             
-                   <div class="form-group">
-                     <label for="massage">Massage</label>
-                     <textarea name="massage" id="massage" cols="30" rows="10"></textarea>
-                   </div>
-             
-                   <button type="submit-free">Submit</button>
-                 </form>
-               </div>
-               <div id="status"></div>
-             </section>
-
-         </div>
-         
-        
-         
-
-          <br><br><br>
-
-
-
-
-
-
-         <div class="gumfol">
-             <p style="color:blue;text-align:center;">Follow me on gumroad</p>
-
-
-            <style>
-  .gumroad-follow-form-embed {
-    zoom: 1;
-    display: flex; }
-    .gumroad-follow-form-embed * {
-      margin: 0;
-      border: 0;
-      padding: 0;
-      outline: 0;
-      box-sizing: border-box !important; }
-    .gumroad-follow-form-embed input {
-      flex: 1;
-      margin-right: .75rem;
-      outline: none;
-      font-family: "Mabry Pro", sans-serif;
-      padding: 0.875rem 1rem;
-      font-size: 1rem;
-      line-height: 1.3;
-      border: solid 0.0625rem #000;
-      border-radius: 0.25rem;
-      display: block;
-      width: 100%;
-      background-color: #ffffff;
-      color: #000; }
-    .gumroad-follow-form-embed button {
-      background: #000;
-      color: #fff;
-      font-size: 1rem;
-      line-height: 1.3;
-      padding: 0.875rem 1rem;
-      border: solid 0.0625rem #000;
-      border-radius: 0.25rem;
-      font-family: "Mabry Pro", sans-serif;
-      cursor: pointer;
-      width: -webkit-fit-content;
-      width: -moz-fit-content;
-      width: fit-content;
-      transition: all 0.14s ease-out; }
-      .gumroad-follow-form-embed button:hover {
-        background-color: #ff90e8;
-        color: #000;
-        transform: translate(-0.25rem, -0.25rem);
-        box-shadow: 4px 4px 0px #000; }
-</style>
-<form action="https://app.gumroad.com/follow_from_embed_form" class="form gumroad-follow-form-embed" method="post">
-<input name="seller_id" type="hidden" value="6864817988733">
-<input name="email" placeholder="Your email address" type="email">
-<button data-custom-highlight-color="" type="submit">Follow</button>
-</form>
-               
-               
-               <br><hr><br>
-            
-            
-            
-        </div>
-      </div>
-
-    </div>  
-
-</div>
   
       
 
@@ -600,11 +118,15 @@
             <a href="https://www.instagram.com/irfan_lesnar_/" ><img class="soicon-insta"  src="images/instagram.svg" ></a>
          </div>
       </div>
+
+      <script src="script.js"></script>
       <script src="https://apis.google.com/js/platform.js"></script>
       <script src="request.js"></script>
       <script src="imageChange.js"></script>
       <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+   
+      
    </body>
 </html>
