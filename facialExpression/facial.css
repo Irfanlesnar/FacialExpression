@@ -11,6 +11,9 @@
   border-radius: 10px;
 }
 
+label{
+  color: black;
+}
 
 #Get_Into_patch_editor{
   background-color: #EEEEEE;
