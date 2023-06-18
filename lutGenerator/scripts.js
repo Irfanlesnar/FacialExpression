@@ -1,4 +1,3 @@
-// script.js
 
 document.addEventListener("DOMContentLoaded", function () {
   let brightnessVal = 50;
@@ -19,22 +18,6 @@ document.addEventListener("DOMContentLoaded", function () {
   const uploadButton = document.querySelector(".uploadBtn");
   const sparARbutton = document.querySelector(".buttonSparkAsset");
   const googlePlay = document.querySelector(".googlePlay");
-  const cardFacial = document.querySelector(".cardFacial");
-  const cardLutGenerator = document.querySelector(".cardLutGenerator");
-  const cardApp = document.querySelector(".cardApp");
-
-  cardFacial.addEventListener("click", () => {
-    window.open("facialExpressions.html", "_blank");
-  });
-
-
-  cardLutGenerator.addEventListener("click", () => {
-    window.open("lutGenerator.html", "_blank");
-  });
-
-  cardApp.addEventListener("click", () => {
-    window.open("https://play.google.com/store/apps/details?id=spark.ar.assets", "_blank");
-  });
 
 
   let selectedTool = null;
@@ -315,7 +298,7 @@ document.addEventListener("DOMContentLoaded", function () {
     context.drawImage(defaultLut, 0, 0, canvas.width, canvas.height);
 
     // Convert the canvas to a data URL
-    const dataURL = canvas.toDataURL("image/jpeg");
+    const dataURL = canvas.toDataURL("images/jpeg");
 
     // Create a download link
     const downloadLink = document.createElement("a");

@@ -21,7 +21,7 @@ function changeMyImage() {
   
 function show(){
   
-  document.getElementById("bannerImage").src = "images/banner_irfan_" + randomVal+ ".png";
+  document.getElementById("bannerImage").src = "../images/banner_irfan_" + randomVal + ".png";
   var img = document.getElementById("bannerImage")
   img.style.opacity = opacityVal
   opacity = Number(window.getComputedStyle(img).getPropertyValue("opacity"));
