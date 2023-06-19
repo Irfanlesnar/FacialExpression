@@ -179,6 +179,31 @@ a{
   background-color: #555;
 }
 
+.sub_heading_lut{
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  font-family: "Baloo 2", cursive;
+  font-size: 24px;
+  padding: 10px;
+  margin-bottom: 0px;
+  color: #cfcfcf;
+  text-align: left;
+
+}
+
+
+.aboutLuts{
+  margin-bottom: 10px;
+  border-radius: 10px;
+  padding: 10px;
+  background-color: #232323;
+  width: 90%;
+  color: white;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+}
+
 .rgb {
   display: flex;
   align-items: center;
