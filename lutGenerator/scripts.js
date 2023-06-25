@@ -298,12 +298,12 @@ document.addEventListener("DOMContentLoaded", function () {
     context.drawImage(defaultLut, 0, 0, canvas.width, canvas.height);
 
     // Convert the canvas to a data URL
-    const dataURL = canvas.toDataURL("images/jpeg");
+    const dataURL = canvas.toDataURL("images/png");
 
     // Create a download link
     const downloadLink = document.createElement("a");
     downloadLink.href = dataURL;
-    downloadLink.download = "irfanlesnar_LUT.jpg";
+    downloadLink.download = "irfanlesnar_LUT.png";
 
     // Programmatically trigger the download
     downloadLink.click();
