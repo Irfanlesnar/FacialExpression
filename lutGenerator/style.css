@@ -76,6 +76,13 @@ text-align: center;
 .btn {
   background-color: #ffeb3b31;
 }
+@media only screen and (max-width: 600px) {
+
+  .topBar {
+   
+    display: none !important;
+  }
+}
 
 .bootTools {
   color: #363636;

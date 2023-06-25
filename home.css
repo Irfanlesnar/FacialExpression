@@ -8,9 +8,9 @@ body {
   font-weight: initial;
 }
 
-.banner_new_mobile{
-    display: none;
-  }
+.banner_new_mobile {
+  display: none;
+}
 
 .dark {
   background: #110f16;
@@ -148,11 +148,9 @@ a:hover {
 
 @media only screen and (max-width: 646px) {
   .footerCss {
-    
     height: 600px;
   }
 }
-
 
 @media screen and (min-width: 769px) {
   .postcard {
@@ -185,17 +183,17 @@ a:hover {
   .postcard:hover .postcard__img {
     transform: scale(1.1);
   }
-  .postcard:nth-child(2n+1) {
+  .postcard:nth-child(2n + 1) {
     flex-direction: row;
   }
-  .postcard:nth-child(2n+0) {
+  .postcard:nth-child(2n + 0) {
     flex-direction: row-reverse;
   }
-  .postcard:nth-child(2n+1) .postcard__text::before {
+  .postcard:nth-child(2n + 1) .postcard__text::before {
     left: -12px !important;
     transform: rotate(4deg);
   }
-  .postcard:nth-child(2n+0) .postcard__text::before {
+  .postcard:nth-child(2n + 0) .postcard__text::before {
     right: -12px !important;
     transform: rotate(-4deg);
   }
@@ -237,11 +235,19 @@ a:hover {
 }
 
 .green::before {
-  background-image: linear-gradient(-30deg, rgba(121, 221, 9, 0.1), transparent 50%);
+  background-image: linear-gradient(
+    -30deg,
+    rgba(121, 221, 9, 0.1),
+    transparent 50%
+  );
 }
 
 .green:nth-child(2n)::before {
-  background-image: linear-gradient(30deg, rgba(121, 221, 9, 0.1), transparent 50%);
+  background-image: linear-gradient(
+    30deg,
+    rgba(121, 221, 9, 0.1),
+    transparent 50%
+  );
 }
 
 .postcard .postcard__tagbox .blue.play:hover {
@@ -257,11 +263,19 @@ a:hover {
 }
 
 .blue::before {
-  background-image: linear-gradient(-30deg, rgba(0, 118, 189, 0.1), transparent 50%);
+  background-image: linear-gradient(
+    -30deg,
+    rgba(0, 118, 189, 0.1),
+    transparent 50%
+  );
 }
 
 .blue:nth-child(2n)::before {
-  background-image: linear-gradient(30deg, rgba(0, 118, 189, 0.1), transparent 50%);
+  background-image: linear-gradient(
+    30deg,
+    rgba(0, 118, 189, 0.1),
+    transparent 50%
+  );
 }
 
 .postcard .postcard__tagbox .red.play:hover {
@@ -277,11 +291,19 @@ a:hover {
 }
 
 .red::before {
-  background-image: linear-gradient(-30deg, rgba(189, 21, 11, 0.1), transparent 50%);
+  background-image: linear-gradient(
+    -30deg,
+    rgba(189, 21, 11, 0.1),
+    transparent 50%
+  );
 }
 
 .red:nth-child(2n)::before {
-  background-image: linear-gradient(30deg, rgba(189, 21, 11, 0.1), transparent 50%);
+  background-image: linear-gradient(
+    30deg,
+    rgba(189, 21, 11, 0.1),
+    transparent 50%
+  );
 }
 
 .postcard .postcard__tagbox .yellow.play:hover {
@@ -298,114 +320,165 @@ a:hover {
 }
 
 .yellow::before {
-  background-image: linear-gradient(-30deg, rgba(189, 187, 73, 0.1), transparent 50%);
+  background-image: linear-gradient(
+    -30deg,
+    rgba(189, 187, 73, 0.1),
+    transparent 50%
+  );
 }
 
 .yellow:nth-child(2n)::before {
-  background-image: linear-gradient(30deg, rgba(189, 187, 73, 0.1), transparent 50%);
+  background-image: linear-gradient(
+    30deg,
+    rgba(189, 187, 73, 0.1),
+    transparent 50%
+  );
 }
 
 @media screen and (min-width: 769px) {
   .green::before {
-    background-image: linear-gradient(-80deg, rgba(121, 221, 9, 0.1), transparent 50%);
+    background-image: linear-gradient(
+      -80deg,
+      rgba(121, 221, 9, 0.1),
+      transparent 50%
+    );
   }
 
   .green:nth-child(2n)::before {
-    background-image: linear-gradient(80deg, rgba(121, 221, 9, 0.1), transparent 50%);
+    background-image: linear-gradient(
+      80deg,
+      rgba(121, 221, 9, 0.1),
+      transparent 50%
+    );
   }
 
   .blue::before {
-    background-image: linear-gradient(-80deg, rgba(0, 118, 189, 0.1), transparent 50%);
+    background-image: linear-gradient(
+      -80deg,
+      rgba(0, 118, 189, 0.1),
+      transparent 50%
+    );
   }
 
   .blue:nth-child(2n)::before {
-    background-image: linear-gradient(80deg, rgba(0, 118, 189, 0.1), transparent 50%);
+    background-image: linear-gradient(
+      80deg,
+      rgba(0, 118, 189, 0.1),
+      transparent 50%
+    );
   }
 
   .red::before {
-    background-image: linear-gradient(-80deg, rgba(189, 21, 11, 0.1), transparent 50%);
+    background-image: linear-gradient(
+      -80deg,
+      rgba(189, 21, 11, 0.1),
+      transparent 50%
+    );
   }
 
   .red:nth-child(2n)::before {
-    background-image: linear-gradient(80deg, rgba(189, 21, 11, 0.1), transparent 50%);
+    background-image: linear-gradient(
+      80deg,
+      rgba(189, 21, 11, 0.1),
+      transparent 50%
+    );
   }
 
   .yellow::before {
-    background-image: linear-gradient(-80deg, rgba(189, 187, 73, 0.1), transparent 50%);
+    background-image: linear-gradient(
+      -80deg,
+      rgba(189, 187, 73, 0.1),
+      transparent 50%
+    );
   }
 
   .yellow:nth-child(2n)::before {
-    background-image: linear-gradient(80deg, rgba(189, 187, 73, 0.1), transparent 50%);
+    background-image: linear-gradient(
+      80deg,
+      rgba(189, 187, 73, 0.1),
+      transparent 50%
+    );
   }
 }
 @keyframes spinShadow {
-    to {
-      transform: rotate(360deg);
-    }
+  to {
+    transform: rotate(360deg);
   }
-  .preview-container-square {
-    border-radius: 14px;
-  }
-  
+}
+.preview-container-square {
+  border-radius: 14px;
+}
+
 .mylogo {
-    margin-top: 3px;
-    font-size: 25px;
-    color: white;
-    text-align: center;
-    filter: drop-shadow(0px 0px 15px rgba(216, 11, 188, 0.5));
-    padding-top: 50px;
-  }
-  .myimg {
-    margin-right: 30px;
-    width: 30px;
-    border-radius: 100%;
-    display: inline-block;
-    margin: 10px;
-    vertical-align: middle;
-    box-shadow: 0px 0px 10px #bd2586;
-    animation: spinShadow 6s linear infinite;
-  }
-  .mylogo {
-    margin-left: -15px;
-  }
+  margin-top: 3px;
+  font-size: 25px;
+  color: white;
+  text-align: center;
+  filter: drop-shadow(0px 0px 15px rgba(216, 11, 188, 0.5));
+  padding-top: 50px;
+}
+.myimg {
+  margin-right: 30px;
+  width: 30px;
+  border-radius: 100%;
+  display: inline-block;
+  margin: 10px;
+  vertical-align: middle;
+  box-shadow: 0px 0px 10px #bd2586;
+  animation: spinShadow 6s linear infinite;
+}
+.mylogo {
+  margin-left: -15px;
+}
 .footer {
-    height: 350px;
-    width: 100%;
-    z-index: 6;
-    background-color: #252525;
-  }
-  .soicon {
-    width: 30px;
-    border-radius: 10px;
-    margin: 0px 5px 0px 5px;
-    color: transparent !important;
-    text-decoration: none !important;
-  }
-  .soicon-insta {
-    width: 40px;
-    border-radius: 10px;
-    margin: 0px 5px 0px 0px;
-    color: transparent !important;
-    text-decoration: none !important;
-  }
-  .icons {
-    text-align: center;
-    margin: auto;
-    padding-top: 60px;
-  }
+  height: 350px;
+  width: 100%;
+  z-index: 6;
+  background-color: #252525;
+}
+.soicon {
+  width: 30px;
+  border-radius: 10px;
+  margin: 0px 5px 0px 5px;
+  color: transparent !important;
+  text-decoration: none !important;
+}
+.soicon-insta {
+  width: 40px;
+  border-radius: 10px;
+  margin: 0px 5px 0px 0px;
+  color: transparent !important;
+  text-decoration: none !important;
+}
+.icons {
+  text-align: center;
+  margin: auto;
+  padding-top: 60px;
+}
 
-
+.topBar{
+  margin-bottom: 0px;
+  border-radius: 0px;
+  width: 100%;
+  position: absolute;
+  z-index: 1000;
+  height: 300px;
+  user-select: none;
+  -webkit-user-drag: none;
+  left: 0;
+}
 
 @media only screen and (max-width: 600px) {
+  .banner_new {
+    display: none;
+  }
 
-      
-      .banner_new{
-        display: none;
-        
-        
-      }
+  .topBar {
+   
+    display: none !important;
+  }
 
-      .banner_new_mobile{
-        display: block;
-      }
-    }
+  .banner_new_mobile {
+    display: block;
+  }
+}

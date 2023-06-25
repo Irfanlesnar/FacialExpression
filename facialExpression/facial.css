@@ -487,6 +487,13 @@ iframe {
   }
 }
 
+@media only screen and (max-width: 600px) {
+
+  .topBar {
+   
+    display: none !important;
+  }
+}
 
 @media only screen and (max-width: 820px) {
   iframe {
