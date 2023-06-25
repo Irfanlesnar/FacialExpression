@@ -3,7 +3,7 @@
 
 body {
   font-family: "Baloo 2", cursive;
-  background-color: #262626 !important;
+  background-color: #fff !important;
   margin: auto;
 }
 
@@ -12,15 +12,16 @@ body {
 }
 
 .editingLayout {
+  border: 2px solid rgb(212, 212, 212);
   display: block;
   margin-left: auto;
   margin-right: auto;
   width: 1280px;
-  border-radius: 10px;
+  border-radius: 3px;
   height: 100%;
   padding: 20px 40px;
-  background-color: #494949;
-  box-shadow: 0 0px 15px rgba(0, 0, 0, 0.1); /* Add the box-shadow property */
+  background-color: #fff;
+  box-shadow: 0 0px 10px rgba(0, 0, 0, 0.01); /* Add the box-shadow property */
 }
 
 .uploadBtn {
@@ -32,22 +33,22 @@ body {
   font-family: "Baloo 2", cursive;
   font-size: 28px;
   font-weight: bold;
-  color: #ffffff;
+  color: #000;
   text-align: left;
   margin-bottom: 20px;
 }
 
 .sub_heading {
-  border-top-left-radius: 10px;
-  border-top-right-radius: 10px;
+  border-top-left-radius: 1px;
+  border-top-right-radius: 1px;
   font-family: "Baloo 2", cursive;
   font-size: 24px;
   padding: 10px;
   margin-bottom: 0px;
-  color: #cfcfcf;
+  color: #000;
   text-align: left;
 
-  background: rgb(80, 80, 80);
+  background: #ebebeb;
 }
 
 .rows {
@@ -59,25 +60,24 @@ body {
 }
 
 .bootTools {
-  color: #aeaeae;
+  color: #363636;
   margin: 5px;
 }
 
 .tools {
   box-shadow: 0 0px 15px rgba(69, 69, 69, 0.1);
   max-width: 500px;
-  background-color: #323232;
   min-width: 400px;
 
   width: 400px;
   border: 2px solid rgb(189, 189, 189);
-  border-radius: 10px;
+  border-radius: 3px;
 }
 
 .image_res {
   box-shadow: 0 0px 15px rgba(0, 0, 0, 0.2);
   border: 2px solid rgb(255, 255, 255);
-  border-radius: 10px;
+  border-radius: 3px;
   margin-left: 10px;
   width: -webkit-fill-available;
   max-width: 780px;
@@ -87,7 +87,7 @@ body {
 
 .imageImg {
   width: -webkit-fill-available;
-  border-radius: 10px;
+  border-radius: 3px;
   height: -webkit-fill-available;
   object-fit: cover;
   pointer-events: none;
@@ -111,7 +111,6 @@ input[type="range"] {
   width: 100%;
   height: 10px;
 
-  background-color: #000000;
   border-radius: 5px;
 }
 
@@ -128,7 +127,7 @@ a{
   text-decoration: none !important;
 }
 .range {
-  border-radius: 10px;
+  border-radius: 3px;
   margin: 20px 15px 20px 15px;
 }
 
@@ -167,16 +166,14 @@ a{
 
 .toolsScroll::-webkit-scrollbar-track {
   background-color: #f1f1f1;
-  border-radius: 4px;
 }
 
 .toolsScroll::-webkit-scrollbar-thumb {
-  background-color: #888;
-  border-radius: 4px;
+  background-color: #adadad;
 }
 
 .toolsScroll::-webkit-scrollbar-thumb:hover {
-  background-color: #555;
+  background-color: #717171;
 }
 
 .sub_heading_lut{
@@ -186,18 +183,21 @@ a{
   font-size: 24px;
   padding: 10px;
   margin-bottom: 0px;
-  color: #cfcfcf;
+  color: #000;
   text-align: left;
 
 }
 
 
 .aboutLuts{
+  background-color: white;
+  border: 2px solid rgb(212, 212, 212);
+
+  border-radius: 3px;
   margin-bottom: 10px;
-  border-radius: 10px;
   padding: 10px;
-  background-color: #232323;
-  width: 90%;
+  
+  width: 80%;
   color: white;
   margin-left: auto;
   margin-right: auto;
@@ -252,7 +252,6 @@ a{
   margin: auto;
   justify-content: center;
   padding: 5px 10px 5px 10px;
-  border-radius: 10px;
   text-align: center;
   display: inline-flex;
 
@@ -268,7 +267,6 @@ a{
   margin: auto;
   justify-content: center;
   padding: 5px 10px 5px 10px;
-  border-radius: 10px;
   text-align: center;
   display: inline-flex;
   position: relative;
@@ -288,15 +286,14 @@ a{
 }
 .soicon-insta {
   width: 40px;
-  padding: 5px;
-  border-radius: 10px;
+  border-radius: 3px;
   margin: 0px 5px 0px 0px;
   color: transparent !important;
   text-decoration: none !important;
 }
 .soicon {
   width: 30px;
-  border-radius: 10px;
+  border-radius: 3px;
   margin: 0px 5px 0px 5px;
   color: transparent !important;
   text-decoration: none !important;
@@ -352,6 +349,77 @@ a{
   object-fit: contain;
   margin-right: 10px;
 }
+
+@media only screen and (max-width: 1000px) {
+  .editingLayout{
+    width: 850px !important;
+  }
+
+  .tools {
+    box-shadow: 0 0px 15px rgba(69, 69, 69, 0.1);
+    max-width: 200px !important;
+    background-color: #fff;
+    min-width: 200px !important;
+    width: 200px !important;
+    height: 345px;
+    border: 2px solid rgb(189, 189, 189);
+}
+
+.image_res {
+  box-shadow: 0 0px 15px rgba(0, 0, 0, 0.2);
+  border: 2px solid rgb(255, 255, 255);
+  margin-left: 10px;
+  width: -webkit-fill-available;
+  max-width: 560px !important;
+  min-width: 560px !important;
+  height: 345px;
+}
+}
+
+
+@media only screen and (max-width: 850px) {
+  .editingLayout{
+    width: 600px !important;
+  }
+
+  .tools {
+    box-shadow: 0 0px 15px rgba(69, 69, 69, 0.1);
+    max-width: 200px !important;
+    min-width: 200px !important;
+    width: 200px !important;
+    height: 345px;
+    border: 2px solid rgb(189, 189, 189);
+}
+
+.image_res {
+  box-shadow: 0 0px 15px rgba(0, 0, 0, 0.2);
+  border: 2px solid rgb(255, 255, 255);
+  border-radius: 3px;
+  margin-left: 10px;
+  width: -webkit-fill-available;
+  max-width: 310px !important;
+  min-width: 310px !important;
+  height: 345px;
+}
+}
+
+.footerCss {
+  margin-bottom: 0px;
+  border-radius: 0px;
+  width: 100%;
+  position: absolute;
+  z-index: 1000;
+  height: 400px;
+}
+
+@media only screen and (max-width: 646px) {
+  .footerCss {
+    
+    height: 600px;
+  }
+}
+
+
 @media only screen and (max-width: 1290px) {
 
   .contentContainer {
@@ -362,12 +430,10 @@ a{
   .tools {
     box-shadow: 0 0px 15px rgba(69, 69, 69, 0.1);
     max-width: 300px;
-    background-color: #323232;
     min-width: 300px;
     width: 300px;
     height: 345px;
     border: 2px solid rgb(189, 189, 189);
-    border-radius: 10px;
 }
 
 .toolsScroll {
@@ -380,7 +446,7 @@ a{
 .image_res {
   box-shadow: 0 0px 15px rgba(0, 0, 0, 0.2);
   border: 2px solid rgb(255, 255, 255);
-  border-radius: 10px;
+  border-radius: 3px;
   margin-left: 10px;
   width: -webkit-fill-available;
   max-width: 600px;
@@ -399,11 +465,11 @@ a{
     margin-left: auto;
   margin-right: auto;
     width: 1000px;
-    border-radius: 10px;
+    border-radius: 3px;
     height: 100%;
     padding: 20px 40px;
-    background-color: #494949;
-    box-shadow: 0 0px 15px rgba(0, 0, 0, 0.1); /* Add the box-shadow property */
+    background-color: #fff;
+    box-shadow: 0 0px 28px rgba(0, 0, 0, 0.1); /* Add the box-shadow property */
   }
   
 }
@@ -454,11 +520,11 @@ a{
   }
 
   .betterEx {
-    border-radius: 10px;
+    border-radius: 3px;
     margin: 20px 10px;
     padding: 7px;
     text-align: center;
-    background: rgba(15, 15, 15, 0.279);
+    background: rgba(191, 191, 191, 0.279);
     backdrop-filter: blur(10px); /* Add glass effect */
     -webkit-backdrop-filter: blur(10px); /* For Safari */
   }

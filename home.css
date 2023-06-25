@@ -17,7 +17,7 @@ body {
 }
 
 .light {
-  background: #f3f5f7;
+  background: #fff;
 }
 
 a,
@@ -136,6 +136,23 @@ a:hover {
 .postcard:hover .postcard__bar {
   width: 100px;
 }
+
+.footerCss {
+  margin-bottom: 0px;
+  border-radius: 0px;
+  width: 100%;
+  position: absolute;
+  z-index: 1000;
+  height: 400px;
+}
+
+@media only screen and (max-width: 646px) {
+  .footerCss {
+    
+    height: 600px;
+  }
+}
+
 
 @media screen and (min-width: 769px) {
   .postcard {
